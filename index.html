@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="movies home theatre">
+    <meta name="Moobee" content="movies">
+    <meta name="language" content="en">
+    <link rel="stylesheet" href="index.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="formbox">
+        <h1 id="logotext" class="logo"><a href="home.html" class="logolink"><span class="span1">MOO</span><span
+                    class="span2">BEE</span></a></h1>
+        <div class="signup-box">
+            <h1>Login In</h1>
+            <form>
+                <label>Email</label>
+                <input type="email" name="email" id="email" placeholder="Please Enter Your Email" required />
+                <label>Password</label>
+                <input type="password" name="password" id="password" placeholder="Create Your Password" required />
+            </form>
+            <input type="submit" value="LOGIN" class="button" onclick="login()" />
+        </div>
+    </div>
+
+    <script>
+        function login() {
+            let email = document.getElementById("email").value;
+            let password = document.getElementById("password").value;
+            if (email == "bimdev@outlook.com" && password == "bimdev123") {
+                window.location.assign("home.html");
+                alert("Login Successful");
+            } else {
+                alert("Failed to login");
+                return;
+            }
+        }
+    </script>
+
+
+</body>
+
+
+</html>

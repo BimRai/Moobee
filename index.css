@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+body {
+    background-image: url(homebg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+}
+
+.formbox {
+    margin-top: 250px;
+}
+
+div {
+    margin-top: 85px;
+}
+
+.container .logo {
+    font-size: 100px;
+    padding-top: 70px;
+    padding-bottom: 60px;
+    color: rgba(100, 100, 100, 0.938);
+    justify-content: flex-start;
+}
+
+.logolink {
+    text-decoration: none;
+}
+
+.span1 {
+    color: white;
+}
+
+.span2 {
+    color: rgba(124, 124, 124, 0.973);
+}
+
+nav li a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+.signup-box {
+    width: 360px;
+    height: 300px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.74);
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 30px;
+
+}
+
+form {
+    width: 320px;
+    margin-left: 20px;
+}
+
+form label {
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border: 1px solid rgb(7, 7, 7);
+    border-radius: 6px;
+    outline: none;
+}
+
+.button {
+    width: 320px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 6px;
+    background-color: #0e0e0ed2;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
